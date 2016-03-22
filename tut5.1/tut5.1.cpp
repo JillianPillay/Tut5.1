@@ -1,17 +1,17 @@
 #include <iostream>
+
 using namespace std;
+class Card;
 
-class card
+
+
+int main()
 {
-public :
-	void colour()
-	{
-		int i;
-		for (i = 1; i <= 10; i++)
-		if (i = i + 2)
-			cout << "red" << endl;
-		else
-			cout << "black" << endl;
+	Card myCard;
+	int numb;
+	cout << "please enter a card number" << endl;
+	cin >> numb;
+	cout << myCard.print() << endl;
+	
 
-	}
-};
+}
